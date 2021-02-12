@@ -5,17 +5,16 @@
     box-sizing: border-box;
 }
 
+/* Page Wrapper */
 .wrapper {
-    height: 1000px;
     width: 80%;
     margin: auto;
-    background-color: gold;
 }
 
 /* Header */
-.heading {
+.hc {
     width: 100%;
-    margin-top: 20px;
+    margin-top: 10px;
     display: inline-block;
 }
 
@@ -26,17 +25,53 @@
 
 .second-section {
     height: 500px;
+    margin-bottom: 10px;
     background-color: khaki;
 }
 
 /* Main */
+main {
+    background-color: rgb(58, 132,248);
+    padding-bottom: 20px;
+}
+
 .third-section {
     height: 80px;
-    background-color: aqua;
+    background-color: rgb(149, 194, 228);
+    margin-top: 0;
 }
 
 .clearfix::after {
     content: "";
     display: table;
     clear: both;
+}
+
+.col {
+    float: left;
+    margin-top: 20px;
+    height: 600px;
+}
+
+.col-left {
+    width: 18%;
+    background-color: rgb(149, 194, 228)
+}
+
+.col-center {
+    width: 60%;
+    margin-left: 2%;
+    margin-right: 2%;
+    background-color: rgb(149, 194, 228)
+}
+
+.col-right {
+    width: 18%;
+    background-color: rgb(149, 194, 228)
+}
+
+/* Footer */
+.fourth-section {
+    background-color: rgb(124, 22,245);
+    height: 50px;
 }
